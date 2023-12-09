@@ -43,12 +43,18 @@ body {
 
 .resume {
     margin: 50px auto;
-    /* border: 1px solid #f5f5f5; */
+    border-radius: 10px;
     border: 1px solid var(--primary-light-color);
     box-shadow: 1px 1px 7px 7px #f5f5f5;
     background-color: var(--secondary-light-color);
     padding: 30px 0;
     max-width: 900px;
+}
+
+.section {
+    padding: 15px 10px 0 10px;
+    background-color: var(--primary-dark-color);
+    border-radius: 4px;
 }
 
 .resume__block {
