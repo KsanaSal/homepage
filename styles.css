@@ -32,7 +32,8 @@ body {
 .fh {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .fv {
@@ -83,6 +84,9 @@ body {
 }
 
 /* Contact info styles */
+.main-info {
+    border-bottom: none;
+}
 .contact-info__header,
 .contact-info__sub-header {
     text-align: center;
