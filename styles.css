@@ -14,13 +14,13 @@ body {
     --durability-text-color: #6a737d99;
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --accent-color: #ff9a00;
     --primary-dark-color: #500c7b;
     --primary-medium-color: #9710ed;
     --primary-light-color: #faf5fd;
-    --secondary-dark-color: #6d2c07;
-    --secondary-medium-color: #fea002;
-    --secondary-light-color: #fef9f5;
+    --secondary-dark-color: #e65100;
+    --secondary-medium-color: #ff810d;
+    --secondary-light-color: #fff9f4;
 }
 
 .container {
@@ -89,15 +89,17 @@ body {
 }
 
 .contact-info__header {
-    color: var(--primary-text-color);
-    margin-bottom: 15px;
-    text-decoration-color: var(--text-decoration-color);
+    color: var(--secondary-light-color);
+    margin-bottom: 4px;
+    text-decoration-color: var(--accent-color);
     text-decoration-line: underline;
+    font-size: 30px;
 }
 
 .contact-info__sub-header {
-    color: var(--secondary-text-color);
-    margin-bottom: 30px;
+    color: var(--secondary-light-color);
+    margin-bottom: 12px;
+    font-size: 20px;
 }
 
 .contact-info__block {
@@ -139,11 +141,11 @@ body {
 
 .contact-info__avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border: 3px solid;
-    border-color: var(--text-decoration-color);
+    border-color: var(--accent-color);
 }
 
 /* Intro and skills styles */
