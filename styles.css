@@ -286,11 +286,16 @@ body {
 }
 
 .additional-info {
-    flex: 1 1 40%;
+    flex: 1 1 60%;
 }
 
 .additional-info__education {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 350px;
+    flex: 1 1 60%;
 }
 
 .additional-info__education-header {
@@ -298,6 +303,10 @@ body {
     text-align: left;
     margin-bottom: 10px;
     font-size: 20px;
+}
+
+.additional-info__education-university {
+    margin-bottom: 10px;
 }
 
 .additional-info__education-university-durability {
@@ -310,7 +319,7 @@ body {
 .additional-info__education-university-speciality {
     color: var(--primary-text-color);
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
 
 .additional-info__education-university-name {
