@@ -37,6 +37,13 @@ body {
     align-items: flex-start;
 }
 
+.fh-additional {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
 .fv {
     display: flex;
     flex-direction: column;
@@ -287,9 +294,10 @@ body {
 }
 
 .additional-info__education-header {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .additional-info__education-university-durability {
