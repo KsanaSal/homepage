@@ -223,9 +223,10 @@ body {
 }
 
 .experiences__header {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .experiences__company-header-durability {
@@ -240,12 +241,12 @@ body {
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 4px;
 }
 
 .experiences__company-project {
     margin-left: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .experiences__company-project-role {
@@ -258,12 +259,23 @@ body {
 .experiences__company-project-name {
     color: var(--primary-text-color);
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
 
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
+}
+
+.experiences__company-link {
+    text-decoration: none;
+    color: var(--primary-medium-color);
+    margin-left: 4px;
+}
+
+.experiences__company-link:hover {
+    text-decoration: underline;
+    color: var(--primary-dark-color);
 }
 
 .additional-info {
