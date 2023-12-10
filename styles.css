@@ -18,9 +18,9 @@ body {
     --primary-dark-color: #500c7b;
     --primary-medium-color: #9710ed;
     --primary-light-color: #faf5fd;
-    --secondary-dark-color: #e65100;
-    --secondary-medium-color: #ff810d;
-    --secondary-light-color: #fff9f4;
+    --secondary-dark-color: #09494b;
+    --secondary-medium-color: #1ad6dc;
+    --secondary-light-color: #f6ffff;
 }
 
 .container {
@@ -117,10 +117,12 @@ body {
 }
 
 .contact-info__item {
-    color: var(--secondary-text-color);
+    color: var(--secondary-light-color);
     text-decoration: none;
     display: flex;
     justify-content: start;
+    align-items: center;
+    font-family: Times;
 }
 
 .contact-info__item:not(:last-child) {
@@ -135,7 +137,7 @@ body {
 }
 
 .contact-info__item-icon path {
-    fill: var(--icon-color);
+    fill: var(--primary-light-color);
 }
 
 .contact-info__item-icon {
