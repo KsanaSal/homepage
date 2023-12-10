@@ -14,13 +14,13 @@ body {
     --durability-text-color: #6a737d99;
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --accent-color: #ff9a00;
     --primary-dark-color: #500c7b;
     --primary-medium-color: #9710ed;
     --primary-light-color: #faf5fd;
-    --secondary-dark-color: #6d2c07;
-    --secondary-medium-color: #fea002;
-    --secondary-light-color: #fef9f5;
+    --secondary-dark-color: #09494b;
+    --secondary-medium-color: #1ad6dc;
+    --secondary-light-color: #f6ffff;
 }
 
 .container {
@@ -32,7 +32,8 @@ body {
 .fh {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .fv {
@@ -83,21 +84,26 @@ body {
 }
 
 /* Contact info styles */
+.main-info {
+    border-bottom: none;
+}
 .contact-info__header,
 .contact-info__sub-header {
     text-align: center;
 }
 
 .contact-info__header {
-    color: var(--primary-text-color);
-    margin-bottom: 15px;
-    text-decoration-color: var(--text-decoration-color);
+    color: var(--secondary-light-color);
+    margin-bottom: 4px;
+    text-decoration-color: var(--accent-color);
     text-decoration-line: underline;
+    font-size: 30px;
 }
 
 .contact-info__sub-header {
-    color: var(--secondary-text-color);
-    margin-bottom: 30px;
+    color: var(--secondary-light-color);
+    margin-bottom: 12px;
+    font-size: 20px;
 }
 
 .contact-info__block {
@@ -111,10 +117,12 @@ body {
 }
 
 .contact-info__item {
-    color: var(--secondary-text-color);
+    color: var(--secondary-light-color);
     text-decoration: none;
     display: flex;
     justify-content: start;
+    align-items: center;
+    font-family: Times;
 }
 
 .contact-info__item:not(:last-child) {
@@ -129,7 +137,7 @@ body {
 }
 
 .contact-info__item-icon path {
-    fill: var(--icon-color);
+    fill: var(--primary-light-color);
 }
 
 .contact-info__item-icon {
@@ -139,11 +147,11 @@ body {
 
 .contact-info__avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border: 3px solid;
-    border-color: var(--text-decoration-color);
+    border-color: var(--accent-color);
 }
 
 /* Intro and skills styles */
