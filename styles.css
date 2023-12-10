@@ -11,9 +11,10 @@ body {
 
     --primary-text-color: #181820;
     --secondary-text-color: #5c5c62;
-    --durability-text-color: #6a737d99;
+    --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
+    --text-decoration-color: #ff9a00;
     --accent-color: #ff9a00;
     --primary-dark-color: #500c7b;
     --primary-medium-color: #9710ed;
@@ -59,8 +60,8 @@ body {
 }
 
 .resume__block {
-    border-bottom: 3px solid var(--border-color);
-    padding-bottom: 30px;
+    border-bottom: 3px solid var(--secondary-dark-color);
+    padding-bottom: 20px;
     margin-bottom: 15px;
 }
 
@@ -158,6 +159,14 @@ body {
 .intro {
     display: flex;
     justify-content: start;
+    flex-direction: column;
+    align-items: start;
+}
+
+.intro__header {
+    color: var(--primary-text-color);
+    text-align: left;
+    margin-bottom: 8px;
 }
 
 .intro__icon-wrapper {
